@@ -1,0 +1,15 @@
+<form action="/updateAction" method="post">
+	<p>
+		Title
+	</p>
+	<input type="text" name="title" value="<%=@post.title%>">
+	<br/>
+	<p>
+		Script
+	</p>
+	<input type="text" name="description" value="<%=@post.description%>">
+	<input type="hidden" name="id" value="<%=@post.id%>">
+	<button type="submit">
+		Submit
+	</button>
+</form>
